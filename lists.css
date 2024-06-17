@@ -1,0 +1,9 @@
+ol > li {
+    background-color: rgb(24, 130, 130);
+    border: 2px;
+}
+
+/* This tag is for particular selection */
+li:nth-of-type(4) {
+    background-color: rgb(255, 102, 0);
+}

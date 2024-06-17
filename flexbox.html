@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            border: 2px solid black;
+            /* width: 1500px; */
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+        }
+
+        .child {
+            width: 130px;
+            height: 130px;
+        }
+
+        #one {
+            background-color: rgb(157, 216, 216);
+        }
+        #two {
+            background-color: rgb(85, 81, 81);
+        }
+        #three {
+            background-color: rgb(152, 148, 134);
+        }
+        #four {
+            background-color: rgb(78, 58, 134);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>flex box</h1>
+    <div class="parent">
+        <div id="one" class="child"> Red </div>
+        <div id="two" class="child"> Green </div>
+        <div id="three" class="child"> Blue </div>
+        <div id="four" class="child"> yellow </div>
+
+    </div>
+</body>
+</html>

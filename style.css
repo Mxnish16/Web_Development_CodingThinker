@@ -3,3 +3,30 @@ h1 {
     text-align: center;
     padding: 10px 20px;
 }
+
+.para {
+    background-color: rgb(20, 220, 60);
+}
+
+#pa {
+    background-color: blue;
+}
+
+/* This is for ending selector */
+/* a[href$='com'] {
+    background-color: blue;
+} */
+
+/* This is for starting selector */
+/* a[href^='https'] {
+    background-color: blueviolet;
+} */
+
+/* This is universal Selector */
+/* a[href*='https'] {
+    background-color: rgb(58, 204, 121);
+} */
+
+div p {
+    background-color: yellow;
+}
