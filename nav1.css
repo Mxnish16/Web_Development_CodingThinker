@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: black;
+    height: 40px;
+    color: beige;
+    align-items: center;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    width: 70px;
+    display: flex;
+    font-family: sans-serif;
+    padding-right: 15px;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    padding-bottom: 100px;
+    padding-left: 900px;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-family: sans-serif;
+    
+}
+
+.para {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
