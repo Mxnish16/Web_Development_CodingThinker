@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            border: 2px solid black;
+            /* width: 1500px; */
+            height: 600px;
+            display: flex;
+            align-content: space-between;
+            /* flex-direction: row; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-between; */
+            /* flex-wrap: wrap; */
+            /* align-items: center;
+            justify-content: center; */
+
+            
+        }
+
+        .child {
+            width: 130px;
+            height: 130px;
+        }
+
+        #one {
+            background-color: rgb(157, 216, 216);
+            /* flex-grow: 2; */
+            /* flex-basis: 1200px; */
+            /* flex-shrink: 4; */
+        }
+        #two {
+            background-color: rgb(85, 81, 81);
+            flex-basis: 1200px;
+        }
+        #three {
+            background-color: rgb(152, 148, 134);
+            flex-grow: 5;
+        }
+        #four {
+            background-color: rgb(78, 58, 134);
+            flex-shrink: 200;
+        }
+        p {
+            max-width: 10000px;
+            margin: 0;
+            border: 2px solid greenyellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>flex box</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat unde aspernatur dolore facilis autem cupiditate earum sit exercitationem et laborum nemo amet debitis obcaecati sed, perspiciatis facere iste esse nesciunt!</p>
+    <div class="parent">
+        <div id="one" class="child"> Red </div>
+        <div id="two" class="child"> Green </div>
+        <div id="three" class="child"> Blue </div>
+        <div id="four" class="child"> yellow </div>
+    </div>
+    
+    </div>
+
+    
+</body>
+</html>

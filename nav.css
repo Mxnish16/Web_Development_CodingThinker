@@ -6,7 +6,7 @@
     align-items: center;
     color: rgb(255, 115, 0);
     padding-left: 30px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding-right: 30px;
 }
 
@@ -19,11 +19,19 @@
 
 span {
     width: 80px;
+    /* height: 100px; */
 }
 
 button {
     display: flex;
     justify-content: end;
     background-color: aqua;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+}
+
+@media (max-width: 425px) {
+    a {
+        width: 500;
+        height: auto;
+    }
 }
