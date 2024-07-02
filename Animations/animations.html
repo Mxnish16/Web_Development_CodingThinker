@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        div {
+            height: 500px;
+            width: 500px;
+            background-color: black;
+            border-radius: 10px;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 1s;
+        }
+
+        div:hover {
+            animation-name: kabir;
+            animation-duration: 3s;
+        }
+
+        @keyframes kabir {
+            0% {
+                width: 300vh;
+                height: 100vh;
+                background-color: blue;
+                border-radius: 50%;
+            }
+            50% {
+                width: 500px;
+            }
+
+            70% {
+                background-color: brown;
+                height: 100vh;
+            }
+
+            100% {
+                background-color: cadetblue;
+                width: 500vh;
+                height: 800vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

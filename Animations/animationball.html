@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(red , purple , green , orange);
+            animation-name: manish;
+            margin: auto;
+            animation: 800ms ease-in 0s infinite alternate none running manish;
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        @keyframes manish {
+            0% {
+                transform: translateY(0px);
+            }
+
+            100% {
+                transform: translateY(75vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+    </div>
+</body>
+</html>
