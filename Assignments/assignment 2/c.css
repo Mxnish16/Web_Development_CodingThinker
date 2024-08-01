@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    padding: 0 3rem;
+    background-color: black;
+}
+
+.box-1 {
+    padding-top: 6rem;
+    width: 1200px;
+    height: 400px;
+}
+
+.box-2 {
+    padding-top: 3rem;
+    width: 500px;
+    height: 400px;
+}
+
+.section1 {
+    display: flex;
+    font-size: 50px;
+    padding-top: 6rem;
+    font-weight: bold;
+}
+
+.section2 {
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+}
+
+.section3 {
+    display: flex;
+    padding-top: 2rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(38, 173, 20);
+}
+
+.box-2 img {
+    padding-top: 5rem;
+    border-radius: 50%;
+}

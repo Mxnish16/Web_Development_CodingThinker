@@ -30,7 +30,6 @@ body {
     transition: 1s;
     animation-name: car;
     animation-duration: 7s;
-    animation-iteration-count: infinite;
 }
 
 #tyre1 , #tyre2 {
