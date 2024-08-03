@@ -136,24 +136,6 @@
   
   // clearInterval(id)
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // function step1(){
