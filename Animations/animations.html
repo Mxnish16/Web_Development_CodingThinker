@@ -6,24 +6,25 @@
     <title>Animations</title>
     <style>
         div {
-            height: 500px;
-            width: 500px;
+            height: 300px;
+            width: 300px;
             background-color: black;
             border-radius: 10px;
             animation-iteration-count: infinite;
             animation-direction: alternate;
-            animation-delay: 1s;
+            animation-delay: 0s;
+            margin: auto;
         }
 
         div:hover {
             animation-name: kabir;
-            animation-duration: 3s;
+            animation-duration: 2.5s;
         }
 
         @keyframes kabir {
             0% {
-                width: 300vh;
-                height: 100vh;
+                width: 60vh;
+                height: 60vh;
                 background-color: blue;
                 border-radius: 50%;
             }
@@ -33,18 +34,20 @@
 
             70% {
                 background-color: brown;
-                height: 100vh;
+                height: 70vh;
             }
 
             100% {
                 background-color: cadetblue;
-                width: 500vh;
-                height: 800vh;
+                width: 100vh;
+                height: 98vh;
             }
         }
     </style>
 </head>
 <body>
-    <div></div>
+    <div>
+        <img src="" alt="">
+    </div>
 </body>
 </html>

@@ -33,12 +33,25 @@
 // let val5 = document.querySelectorAll('button')
 // console.log(val5);
 
-console.log(document.body.style.backgroundColor='grey');
-console.dir(document.body.childNodes[1]);
+// console.log(document.body.style.backgroundColor='grey');
+// console.dir(document.body.childNodes[1]);
 
-let a = document.querySelector('a')
-a.setAttribute('href','https://www.amazon.in/')
-console.log(a.getAttribute('href'));
+// let a = document.querySelector('a')
+// a.setAttribute('href','https://www.amazon.in/')
+// console.log(a.getAttribute('href'));
 
-let b = document.querySelector('a')
-console.log(b);
+// let b = document.querySelector('a')
+// console.log(b);
+
+// let div = document.querySelector('div')
+// let p = document.createElement('p')
+// let h1 = document.createElement('h1')
+// p.innerText = 'hello'
+// h1.innerText = 'heyyyya'
+// div.append(p,h1)
+// h1.remove()3
+
+// console.log(div);
+
+
+
