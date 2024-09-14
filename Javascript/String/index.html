@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: grid;
+            justify-content: center;
+            margin-top: 200px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #inp1 {
+            display: flex;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            font-size: 16px;
+            outline: none;
+            
+        }
+
+        #inp2 {
+            display: flex;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        button {
+            margin-top: 15px;
+            height: 30px;
+            outline: none;
+            font-size: 14px;
+            background-color: rgb(4, 199, 79);
+            cursor: pointer;
+            border-radius: 18px;
+        }
+
+        #clear {
+            margin-top: 15px;
+            height: 30px;
+            outline: none;
+            font-size: 14px;
+            background-color: rgb(31, 28, 23);
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <input type="text" placeholder="Username" id="inp1">
+    <input type="password" placeholder="Password" id="inp2">
+    <button>Save Now</button>
+    <button id="clear">Clear Now</button>
+
+    <script>
+
+        // let str = 'manishhhh'
+        // console.log(str.indexOf('manishhhh'));
+        // console.log(str.indexOf('s')); // indexOf 
+        // console.log(str.includes('Manishhhh')); // includes which returns true or fase
+        // console.log(str.includes('manishhhh'));
+
+        // let str1 = 'hello , manish'
+        // console.log(str1.slice(8,14)); // slice starting index and ending index
+        // console.log(str1.replace('hello','hiiii')); // replace 
+        
+        // let str2 = '    Javascript is a programming language     ' 
+        // console.log(str2.trim()); // trim removes the spaces from start to end.
+
+        // let obj = {
+        //     id: 1,
+        //     name: 'manish'
+        // }
+        // console.log(obj);
+        
+        // let arr = [1,2,3]
+        // console.log(arr);
+        
+        // let abc = 'hello'
+        // abc.__proto__ u can check the pre defined prototypes
+
+        // localStorage.setItem('data','manishhh')
+        // let a = localStorage.getItem('data','manishhh')
+        // console.log(a);
+
+        const inp = document.querySelector('#inp1')
+        const inpx = document.querySelector('#inp2')
+        const btn = document.querySelector('button')
+        const clr = document.querySelector('#clear')
+        
+        
+        btn.addEventListener('click', ()=> {
+            const key = inp.value
+            const data = inpx.value
+            localStorage.setItem(key,data)
+            inp.value = ''
+            inpx.value = ''
+            
+        })
+
+        clr.addEventListener('click', ()=> {
+            const key = inp.value
+            const data = inpx.value
+            localStorage.clear(key,data)
+        })
+
+    </script>
+
+</body>
+</html>

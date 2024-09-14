@@ -1,0 +1,20 @@
+
+
+classes are dynamic 
+functions are static
+
+static + react hook 
+
+react hook
+    useState()
+
+style={{color:'red}}
+
+
+----> rules of useState hook
+
+1. must be written inside function component.
+2. must be import in component.
+3. must be call at top level of component.
+4. can't be conditional.
+5. all the hooks in reactjs start from use.

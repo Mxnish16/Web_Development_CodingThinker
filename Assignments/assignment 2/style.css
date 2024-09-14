@@ -206,7 +206,7 @@ body.dark h1, body.dark .support a {color: #fff;}
     line-height: 0;
     overflow: hidden;
     box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2);
-    transition: all 400ms ease;
+    transition: all 400ms ease-in-out;
   }
   
   .social-icons-container a:hover {
