@@ -63,13 +63,15 @@ import React from 'react'
 import CountFunction from './countFunction';
 import Clock from './Clock';
 import Input from './Input';
+import Todo from './Todo';
 
 const App = () => {
   return (
     <>
-      <Input />
-      <CountFunction />
+      {/* <Input /> */}
+      {/* <CountFunction /> */}
       {/* <Clock /> */}
+      <Todo />
     </>
 
   )

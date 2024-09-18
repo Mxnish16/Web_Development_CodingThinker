@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating pizza</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            background-color: rgb(98, 255, 0);
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 250px;
+            padding: 0 20rem;
+            font-family: monospace;
+            color: blue;
+        }
+
+        img {
+            width: 10vw;
+            animation-name: pizza;
+        }
+
+        div:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        @keyframes pizza {
+
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media {
+            img {
+                animation: pizza infinite 2s linear;
+            }
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="/Animations/9034935_logo_chrome_icon.png" alt="">
+        <h1>Chrome</h1>
+    </div>
+    <div>
+        <img src="/Animations/9034978_logo_firefox_icon (1).png" alt="">
+        <h1>Mozilla</h1>
+    </div>
+    <div>
+        <img src="/Animations/9035059_logo_react_icon.png" alt="">
+        <h1>React</h1>
+    </div>
+    <div>
+        <img src="/Animations/4691352_shazam_icon.png" alt="">
+        <h1>Shazam</h1>
+    </div>
+</body>
+
+</html>

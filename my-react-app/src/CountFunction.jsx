@@ -33,6 +33,7 @@ import { useState , React } from 'react'
 const countFunction = () => {
   const [count, setCount] = useState(0)
   const [background, setBackground] = useState('white') 
+  const [textColor, setTextColor] = useState('black')
 
   function counter() {
     setCount(count + 1)
@@ -60,7 +61,7 @@ const countFunction = () => {
   }
 
   return (
-    <div style={{backgroundColor: background , height:'40vw'}}>
+    <div style={{backgroundColor: background , height:'40vw', color: textColor}}>
       <h1>Button clicked {count} times.</h1>
       <button onClick={counter} style={{cursor:'pointer'}}>Click Me</button>
       <button onClick={bgColor} style={{cursor:'pointer'}}>Color</button>
