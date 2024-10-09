@@ -1,4 +1,61 @@
+// rafce -> 
+// command for output
+// 1. cd my-react-app
+// 2. npm run dev
 
+
+// import './App.css'
+// import New from "./New"
+
+
+// const App = () => {
+//   let arr = ['manish','aman','rahul','kabir','samarth']
+//   return (
+//     <div>
+//       <h1>Names</h1>
+//       {
+//         arr.map((a) => {
+//           return(<>
+//           <li> {a} </li>
+//           </>)
+//         })
+//       }
+//     </div>
+    
+//   )
+// }
+
+// import React from 'react'
+// import New from './New'
+// import Nav from './Comp/Nav'
+
+// const App = () => {
+//   return (
+//     <>
+//         <Nav />
+//         <Nav />
+//         <New />
+//     </>
+    
+//   )
+// }
+
+
+import New from './New';
+
+// const App = () => {
+//   let a = 'Hello i am manish';
+//   return (
+//     <div>
+//       {
+//         <New a1 = {a}/>
+//       }
+//       {
+//         <Nav/>
+//       }
+//     </div>
+//   )
+// }
 
 classes are dynamic 
 functions are static
@@ -17,4 +74,25 @@ style={{color:'red}}
 2. must be import in component.
 3. must be call at top level of component.
 4. can't be conditional.
-5. all the hooks in reactjs start from use.
+5. all the hooks in Reactjs start from use.
+
+
+use Effect
+ empty dependency []
+ for a particular state
+
+ React hooks - React Hooks are special functions in React that allow you to use state and other React features in functional components, which were previously available only in class components
+ 
+ 1) useState => It is used to set and update the initial values in the components.
+ 2) useEffect => It is used to handle the side effects such as fetching data and updating DOM.
+ 3) useReducer => 
+ 
+
+ Routing 
+ form control
+ useReducer
+
+ proops drilling - 
+
+ use navigate is used for redirect from one page to another
+ 

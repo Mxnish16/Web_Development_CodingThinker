@@ -1,32 +1,25 @@
-import React from 'react'
+// import React from 'react'
+// import Home from './Home1'
+// import About from './About'
+// import Contact from './Contact'
+// import { Link } from 'react-router-dom'
 
-const Nav = () => {
-  return (
-    <div>
-        <header>
-            <ul>
-            <h1><span>List of iPhones from 2020</span></h1>
-            <li>iPhone 12</li>
-            <li>iPhone 12 Pro</li>
-            <li>iPhone 12 Pro Max</li>
-            <li>iPhone 13</li>
-            <li>iPhone 13 Pro</li>
-            <li>iPhone 13 Pro Max</li>
-            <li>iPhone 14</li>
-            <li>iPhone 14 Plus</li>
-            <li>iPhone 14 Pro</li>
-            <li>iPhone 14 Pro Max</li>
-            <li>iPhone 15</li>
-            <li>iPhone 15 Plus</li>
-            <li>iPhone 15 Pro</li>
-            <li>iPhone 15 Pro Max</li>
-            </ul>
-        </header>
+// const Nav = () => {
+//   return (
+//     <>
+//       <nav>
+//         <Link to='/'>
+//         <li>Home</li>
+//         </Link>
+//         <Link to='/about'>
+//         <li>About</li>
+//         </Link>
+//         <Link to='/contact'>
+//         <li>Contact</li>
+//         </Link>
+//       </nav>
+//     </>
+//   )
+// }
 
-        <button><a href="https://www.apple.com/in/" target='blank'>Click here for info</a></button>
-        <hr />
-    </div>
-  )
-}
-
-export default Nav
+// export default Nav

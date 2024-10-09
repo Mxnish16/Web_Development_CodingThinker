@@ -56,3 +56,119 @@ a {
     font-size: 13px;
     user-select: none;
 } */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: bisque;
+    height: 50px;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+    color: green;
+}
+
+#home1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+    color: green;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+    color: green;
+}
+ */
+
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ }
+
+ #div2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  #items {
+    background-color: #b1bcc4;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: white;
+  }
+  
+  #items:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  #items img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    user-select: none;
+  }
+  
+  #items h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+    word-wrap: break-word;
+  }
+  
+  #comp  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  input {
+    width: 300px;
+    height: 33px;
+    padding: 0 32px;
+    font-size: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 9px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  #comp2 button:hover {
+    background-color: #45a049;
+  }
+  

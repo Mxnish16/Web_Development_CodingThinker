@@ -32,7 +32,7 @@
 
 // loops 
 
-// var arr = [1,2,3,4,5,'Mxnish','Rahul',false]
+var arr = [1,2,3,4,5,'Mxnish','Rahul',false]
 
 // for(let i in arr) {
 //     console.log(i)

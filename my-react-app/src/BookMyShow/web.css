@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    gap: 30px;
+    padding: 20px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    font-size: 21px;
+}
+
+.input input{
+    width: 400px;
+    height: 33px;
+    padding-left: 15px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login button{
+    width: 100px;
+    height: 33px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: rgb(255, 241, 241);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: greenyellow;
+}
+
+form {
+    animation-name: slideIn;
+}
+
+.form-container {
+    background-color: rgb(210, 221, 217);
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 5px;
+}
+
+.cancel {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.cancel button {
+    /* width: 30px; */
+    /* height: 30px; */
+    font-size: 20px;
+    background: none;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    /* margin-top: 20px; */
+    font-family: cursive;
+    color: red;
+    font-weight: bolder;
+    padding: 30px 0; 
+}
+
+.email, .username, .password, .phoneno, .Otp, span {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.email input {
+    width: 240px;
+    height: 28px;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    border: 1px solid blue;
+    padding-left: 13px;
+    border-radius: 6px;
+}
+
+.username input {
+    width: 240px;
+    height: 28px;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    border: 1px solid blue;
+    margin-top: 15px;
+    padding-left: 13px;
+    border-radius: 6px;
+}
+
+.password input {
+    width: 240px;
+    height: 28px;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    border: 1px solid blue;
+    margin-top: 15px;
+    padding-left: 13px;
+    border-radius: 6px;
+}
+
+.phoneno input {
+    width: 240px;
+    height: 28px;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    border: 1px solid blue;
+    margin-top: 15px;
+    padding-left: 13px;
+    border-radius: 6px;
+}
+
+span {  
+    padding-top: 20px;
+}
+
+.Otp {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Otp button {
+    width: 100px;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(25, 0, 255);
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.Otp button:hover {
+    background-color: #007bff;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input.digit {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input.digit:focus {
+    border-color: #007bff;
+}
+
+.otp-p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.otp-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.otp-container {
+    border: 2px solid black;
+    width: 280px;
+    height: 400px;
+    margin: auto;
+    margin-top: 7%;
+    padding-top: 130px;
+    background-color: chocolate;
+    border-radius: 15px;
+}
+
+.otp-button button{
+    width: 85px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(215, 215, 215);
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.otp-button button:hover {
+    background-color: plum;
+}
+
+.verify {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 622px;
+    background-color: #007bff;
+}
+
+.verify p {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
