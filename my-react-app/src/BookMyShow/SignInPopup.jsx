@@ -8,24 +8,22 @@ const SignInPopup = () => {
     // let [done, setDone] = useState()
 
     function fun1() {
-        
+
         setDisplay('block')
         setotpDisplay('none')
-        setDone('none')
+        // setDone('none')
     }
 
     function fun2(e) {
         e.preventDefault()
-        setDone('none')
+        // setDone('none')
         setDisplay('none')
-      
         setotpDisplay('block')
         let OTP = Math.floor(100000 + Math.random() * 900000);
         localStorage.setItem('OTP', OTP)
     }
 
     function fun3(event) {
-    
         let num = event.target.value
         localStorage.setItem('phoneNumber', num)
     }
@@ -35,9 +33,9 @@ const SignInPopup = () => {
     }
 
     function submitOtp(h) {
-        let value = localStorage.getItem('OTP') 
-        
-        if(value  == input) {
+        let value = localStorage.getItem('OTP')
+
+        if (value == input) {
             alert('Congratulations!')
         } else {
             alert('Oops Try Again !')
@@ -101,7 +99,7 @@ const SignInPopup = () => {
                 </div>
             </form>
 
-            <div style={{display: done}} className='verify'>
+            <div style={{ display: done }} className='verify'>
                 <p>Congratulations !!!</p>
             </div>
         </div>
