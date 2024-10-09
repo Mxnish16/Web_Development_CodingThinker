@@ -8,7 +8,6 @@ const SignInPopup = () => {
     // let [done, setDone] = useState()
 
     function fun1() {
-
         setDisplay('block')
         setotpDisplay('none')
         // setDone('none')
@@ -98,10 +97,6 @@ const SignInPopup = () => {
                     </div>
                 </div>
             </form>
-
-            <div style={{ display: done }} className='verify'>
-                <p>Congratulations !!!</p>
-            </div>
         </div>
     )
 }
